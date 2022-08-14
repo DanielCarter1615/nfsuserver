@@ -9527,14 +9527,14 @@ void addRooms(char *rooms, int roomId) {
 bool InitServer(){
 	char log[1024];
 
-	char rooms_a[64] = "LAN";
-	char rooms_b[64] = "LAN";
-	char rooms_c[64] = "LAN";
-	char rooms_d[64] = "LAN";
-	char rooms_e[64] = "LAN";
-	char rooms_f[64] = "LAN";
-	char rooms_g[64] = "LAN";
-	char rooms_h[64] = "LAN";
+	char rooms_a[128] = "LAN";
+	char rooms_b[128] = "LAN";
+	char rooms_c[128] = "LAN";
+	char rooms_d[128] = "LAN";
+	char rooms_e[128] = "LAN";
+	char rooms_f[128] = "LAN";
+	char rooms_g[128] = "LAN";
+	char rooms_h[128] = "LAN";
 	
 	sprintf(log, "%s NFSU:LAN server v %s starting...\n", SERVER_PLATFORM, NFSU_LAN_VERSION);
 	Log(log);
