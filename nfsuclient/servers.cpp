@@ -226,7 +226,7 @@ bool ClServerClass::Update() {
 				if (IsWin32) {
 					sprintf (buf, "%s [%s:win32:%s:%s]", Name, Version, po, inet_ntoa (remote_sockaddr_in.sin_addr));
 				} else {
-					sprintf (buf, "%s [%s:*nix:%s:%s]", Name, Version, po, inet_ntoa (remote_sockaddr_in.sin_addr));
+					sprintf (buf, "%s [%s:*linux:%s:%s]", Name, Version, po, inet_ntoa (remote_sockaddr_in.sin_addr));
 				}
 
 				item.pszText = buf;
