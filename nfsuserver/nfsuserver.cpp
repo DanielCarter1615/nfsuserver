@@ -1105,7 +1105,7 @@ void CalcStat(const char* reporter, const char* opp1, const char* opp2, const ch
 				// 2 players drag reporter 1st place
 				save_stat_signal = 1;
 				if (opps_rep < 100000) {
-					win_rep = floor((opps_rep * 0.1) + 0.5);
+					win_rep = 10000;
 				}
 				else {
 					win_rep = 10000;
